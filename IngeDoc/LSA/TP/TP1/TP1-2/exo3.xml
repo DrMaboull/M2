@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="exo3.xsl"?>
+
+<annuaire>
+	<personne>
+		<nom_personne>Debouz</nom_personne>
+		<prenom_personne>Jamel</prenom_personne>
+		<mail>jamel.debouz@gmail.com</mail>
+		<telephones_personne>
+			<telephone_personne>0102030405</telephone_personne>
+			<telephone_personne>0506070809</telephone_personne>
+		</telephones_personne>
+		<secteur>intermitent du spectacle</secteur>
+		<poste>humoriste</poste>
+		<commentaire_personne>Commentaire personnel</commentaire_personne>
+	</personne>
+	
+	<personne>
+		<nom_personne>Moi</nom_personne>
+		<prenom_personne>Remy</prenom_personne>
+		<mail>rem@gmail.com</mail>
+		<telephones_personne>
+			<telephone_personne>0102030405</telephone_personne>
+			<telephone_personne>0506070809</telephone_personne>
+		</telephones_personne>
+		<secteur>ingénieur</secteur>
+		<poste>info</poste>
+		<commentaire_personne>Comm</commentaire_personne>
+	</personne>
+	
+	<societe>
+		<nom_societe>ComedyClub</nom_societe>
+		<branches>
+			<branche>
+				<enregistrement>sdfd</enregistrement>
+				<adresse_societe>svq</adresse_societe>	
+				<telephone_societe>dfzef</telephone_societe>
+				<ouverture>fz</ouverture>
+				<ouvres>
+					<ouvre>sgfz</ouvre>
+				</ouvres>
+			</branche>
+			<branche>
+				<enregistrement>azerty</enregistrement>
+				<adresse_societe>1 allee du ciel</adresse_societe>	
+				<telephone_societe>0102010209</telephone_societe>
+				<ouverture>2013</ouverture>
+				<ouvres>
+					<ouvre>28</ouvre>
+				</ouvres>
+			</branche>
+		</branches>
+		<directeur>
+			<noms>
+				<nom>Jose</nom>
+				<nom>Mike</nom>
+			</noms>
+			<adresse>1 de l'annee</adresse>
+		</directeur>
+		<commentaire_societe>Commentaire personnel</commentaire_societe>
+	</societe>
+</annuaire>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no" ?>
+
+<!DOCTYPE annuaire SYSTEM "exo1-2-2.dtd">
+
+<annuaire>
+	
+	<!-- PERSONNES -->
+	
+	<!-- personne 1 -->
+	<personne>
+		<nom_personne nom_naissance="Janine">Debouz</nom_personne>
+		<prenom_personne>Jamel</prenom_personne>
+		<mail>jamel.debouz@gmail.com</mail>
+		<telephones_personne>
+			<telephone_personne>0102030405</telephone_personne>
+			<telephone_personne>0506070809</telephone_personne>
+		</telephones_personne>
+		<secteur>intermitent du spectacle</secteur>
+		<poste>humoriste</poste>
+		<commentaire_personne>Commentaire personnel</commentaire_personne>
+	</personne>
+	
+	<!-- personne 2 -->
+	<personne>
+		<nom_personne nom_naissance="Hachoum">Messas</nom_personne>
+		<prenom_personne>Kouss</prenom_personne>
+		<mail>k.m@gmail.com</mail>
+		<telephones_personne>
+			<telephone_personne>0102030405</telephone_personne>
+			<telephone_personne>0506070809</telephone_personne>
+		</telephones_personne>
+		<secteur>intermitent du spectacle</secteur>
+		<poste>humoriste</poste>
+		<commentaire_personne>Commentaire personnel</commentaire_personne>
+	</personne>
+	
+	<!-- personne 3 -->
+	<personne>
+		<nom_personne nom_naissance="Non">SY</nom_personne>
+		<prenom_personne>Omar</prenom_personne>
+		<mail>osy@gmail.com</mail>
+		<telephones_personne>
+			<telephone_personne>0102030405</telephone_personne>
+			<telephone_personne>0506070809</telephone_personne>
+		</telephones_personne>
+		<secteur>intermitent du spectacle</secteur>
+		<poste>humoriste</poste>
+		<commentaire_personne>Commentaire personnel</commentaire_personne>
+	</personne>
+	
+	<!-- personne 4 -->
+	<personne>
+		<nom_personne nom_naissance="Plana">Vila</nom_personne>
+		<prenom_personne>Remy</prenom_personne>
+		<mail>rvila@gmail.com</mail>
+		<telephones_personne>
+			<telephone_personne>0102030405</telephone_personne>
+			<telephone_personne>0506070809</telephone_personne>
+		</telephones_personne>
+		<secteur>intermitent du spectacle</secteur>
+		<poste>humoriste</poste>
+		<commentaire_personne>Commentaire personnel</commentaire_personne>
+	</personne>
+	
+	<!-- personne 5 -->
+	<personne>
+		<nom_personne nom_naissance="Dobb">Dibb</nom_personne>
+		<prenom_personne>Nass</prenom_personne>
+		<mail>n.d@gmail.com</mail>
+		<telephones_personne>
+			<telephone_personne>0102030405</telephone_personne>
+			<telephone_personne>0506070809</telephone_personne>
+		</telephones_personne>
+		<secteur>intermitent du spectacle</secteur>
+		<poste>humoriste</poste>
+		<commentaire_personne>Commentaire personnel</commentaire_personne>
+	</personne>
+	
+	<!-- personne 6 -->
+	<personne>
+		<nom_personne nom_naissance="Vert">Per</nom_personne>
+		<prenom_personne>Jacques</prenom_personne>
+		<mail>jj.p@gmail.com</mail>
+		<telephones_personne>
+			<telephone_personne>0102030405</telephone_personne>
+			<telephone_personne>0506070809</telephone_personne>
+		</telephones_personne>
+		<secteur>intermitent du spectacle</secteur>
+		<poste>humoriste</poste>
+		<commentaire_personne>Commentaire personnel</commentaire_personne>
+	</personne>
+	
+	<!-- SOCIETES -->
+	<societe>
+		<nom_societe>ComedyClub</nom_societe>
+		<branches>
+			<branche ouvres="Lun-Ven" annee_ouverture="2016">
+				<enregistrement>sdfd</enregistrement>
+				<adresse_societe>svq</adresse_societe>	
+				<telephone_societe>dfzef</telephone_societe>
+			</branche>
+			<branche ouvres="Mardi" annee_ouverture="2017">
+				<enregistrement>azerty</enregistrement>
+				<adresse_societe>1 allee du ciel</adresse_societe>	
+				<telephone_societe>0102010209</telephone_societe>
+			</branche>
+		</branches>
+		<directeur nom_directeur="Debouz" email_directeur="j@d.com" />
+		<commentaire_societe>Commentaire personnel</commentaire_societe>
+	</societe>
+</annuaire>

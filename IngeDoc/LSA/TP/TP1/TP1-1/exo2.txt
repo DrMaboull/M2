@@ -1,0 +1,10 @@
+Exercice 2:
+
+1) Les commentaires s'ouvrent et se ferment avec les balises <!-- et -->.
+
+2) Les sections CDATA permettent de rendre les balises XML obsolètes et ne sont donc pas pris en compte comme telles. Elles sont traitées comme du texte.
+
+En voici un exemple :
+<exo2>
+	<![CDATA[<exemple>Exemple de CDATA</exemple>]]>
+</exo2>

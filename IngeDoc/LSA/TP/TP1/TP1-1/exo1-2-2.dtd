@@ -1,0 +1,30 @@
+<!ELEMENT annuaire (personne+, societe+)>
+<!ELEMENT personne (nom_personne, prenom_personne, mail?, telephones_personne, secteur, poste, commentaire_personne?)>
+    <!ELEMENT nom_personne (#PCDATA)>
+    	<!ATTLIST nom_personne nom_naissance CDATA #IMPLIED>
+    <!ELEMENT prenom_personne (#PCDATA)>
+    <!ELEMENT mail (#PCDATA)>
+    <!ELEMENT telephones_personne (telephone_personne+)>
+    <!ELEMENT telephone_personne (#PCDATA)>
+    <!ELEMENT secteur (#PCDATA)>
+    <!ELEMENT poste (#PCDATA)>
+	<!ELEMENT commentaire_personne (#PCDATA)>
+    
+
+<!ELEMENT societe (nom_societe, branches, directeur, commentaire_societe?)>
+    <!ELEMENT nom_societe (#PCDATA)>
+    <!ELEMENT branches (branche+)>
+        <!ELEMENT branche (enregistrement, adresse_societe, telephone_societe)>
+			<!ATTLIST branche ouvres CDATA "Lun-Ven">
+			<!ATTLIST branche annee_ouverture (2015|2016|2017|avant_2015|inconnue) "inconnue">
+			
+            <!ELEMENT enregistrement (#PCDATA)>
+            <!ELEMENT adresse_societe (#PCDATA)>
+            <!ELEMENT telephone_societe (#PCDATA)>
+            
+            
+            
+    <!ELEMENT directeur EMPTY>
+        <!ATTLIST directeur nom_directeur CDATA #REQUIRED>
+        <!ATTLIST directeur email_directeur CDATA #IMPLIED>
+    <!ELEMENT commentaire_societe (#PCDATA)>

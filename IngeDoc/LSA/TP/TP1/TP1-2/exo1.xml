@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="exo1.xsl"?>
+		
+<livre>
+	<entete>
+		<auteur>Paul Cool</auteur>
+		<titre>Découverte de XML</titre>
+		<serie>cours et exercices</serie>
+	</entete>
+	
+	<description>
+		Cet ouvrage de cours et exercices couvre l'utilisation
+		du formalisme XML et de ses très nombreux outils
+		connexes en une vision d'ensemble rigoureuse.
+		Ainsi, il aborde aussi bien les bonnes pratiques
+		de modélisation, de transformation et de manipulation.
+		Cet ouvrage sera lu avec profit par les étudiants en
+		informatique.Il aidera toute personne amenée à
+		manipuler des documents XML.
+	</description>
+</livre> 

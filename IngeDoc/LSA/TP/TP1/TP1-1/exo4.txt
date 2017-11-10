@@ -1,0 +1,25 @@
+Exercice 4:
+
+1) Dans un arbre :
+
+Le grand père de Gauthier : Emile
+Le père de Michel : Gauthier
+Le fils de Jacques : Gauthier n'a de fils
+L'oncle de Pierre : Mattis
+Qui est Lukas par rapport à Matteo ? Son frère
+
+2) Dans un document XML non-indenté :
+
+Le grand père de Gauthier : Mattis
+Le père de Michel : Emile
+Le fils de Jacques : Paul ou Pierre
+L'oncle de Pierre : Matteo ou Gauthier
+Qui est Lukas par rapport à Matteo ? Son père
+
+3) Dans un document XML indenté :
+
+Le grand père de Gauthier : Paul
+Le père de Michel : René
+Le fils de Jacques : Matteo
+L'oncle de Pierre : Pierre n'a pas d'oncle
+Qui est Lukas par rapport à Matteo ? Son fils

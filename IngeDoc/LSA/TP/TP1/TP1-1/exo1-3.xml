@@ -1,0 +1,129 @@
+<tp1-1 nom="Bases de XML">
+	<descriptionTP>
+		L'objectif de ce TP est de se familiariser
+	</descriptionTP>
+	
+	<exercice nom="Structuration de documents" numero="1">
+		<descriptionExercice>
+			XML permet de structurer un document
+		</descriptionExercice>
+		
+		<sous-exercice nom="Structuration d'information" numero="1">
+			<enonce>
+				Le text suivant contient de l'information 'en vrac'.
+			</enonce>
+			
+			<questions nombre="3">
+				<question numero="1">Réorganiser l'information</question>
+				<question numero="2">Mettre cette structure</question>
+				<question numero="3">Commenter la possibilité</question>
+			</questions>
+		</sous-exercice>
+		
+		<sous-exercice nom="Structuration de données" numero="2">
+			<enonce>
+				Le text suivant contient de l'information 'en vrac'.
+			</enonce>
+			
+			<questions nombre="2">
+				<question numero="1">Proposer une DTD </question>
+				<question numero="2">Modifier la DTD précédente</question>
+			</questions>
+		</sous-exercice>
+		
+		<sous-exercice numero="3">
+			<enonce>
+				Nous cherchons à décrire
+			</enonce>
+			
+			<questions nombre="1">
+				<question numero="1">Proposer un document XML</question>
+			</questions>
+		</sous-exercice>
+	</exercice>
+	
+	<exercice nom="Quelques recherches sur la syntaxe xml" numero="2">
+		<descriptionExercice>
+			Trouver les réponses aux questions suivantes
+		</descriptionExercice>
+		
+		<questions nombre="2">
+			<question numero="1">Comment écrit-on</question>
+			<question numero="2">A quoi servent les CDATA ?</question>
+		</questions>
+	</exercice>
+	
+	<exercice nom="Respect de la syntaxe du XML" numero="3">
+		<descriptionExercice>
+			Voici une série de documents XML,
+		</descriptionExercice>
+		
+		<consigneExercice>
+			S'il ne le sont pas, expliquez les erreurs
+		</consigneExercice>
+		
+		<sous-exercice nom="Document 1" numero="1">
+			<enonce>
+				<![CDATA[<ma_bibliothèque><livre id='1'>]]>
+			</enonce>
+		</sous-exercice>
+		<sous-exercice nom="Document 2" numero="2">
+			<enonce>
+				<![CDATA[<?xml version="1.0"]]>
+			</enonce>
+		</sous-exercice>
+		<sous-exercice nom="Document 3" numero="3">
+			<enonce>
+				<![CDATA[<?xml version ="1.0" ?>]]>
+			</enonce>
+		</sous-exercice>
+	</exercice>
+	
+	<exercice nom="Représentation arborescente" numero="4">
+		<descriptionExercice>
+			Pour chacune des représentations suivantes
+		</descriptionExercice>
+		
+		<consigneExercice>
+			Dérouler le parcours à réaliser pour trouver la réponse.
+		</consigneExercice>
+		
+		<sous-exercice nom="dans un arbre" numero="1">
+			<enonce>
+				image
+			</enonce>
+		</sous-exercice>
+		<sous-exercice nom="dans un document XML non-indenté" numero="2">
+			<enonce>
+				<![CDATA[<?xml version ="1.0" ?>]]>
+			</enonce>
+		</sous-exercice>
+		<sous-exercice nom="dans un document XML indenté" numero="3">
+			<enonce>
+				<![CDATA[<?xml version ="1.0" ?>]]>
+			</enonce>
+		</sous-exercice>
+	</exercice>
+	
+	<exercice nom="Représentation en arbre" numero="5">
+		<consigneExercice>
+			Reprendre l'exercice 3 et représenter
+		</consigneExercice>
+		
+		<sous-exercice nom="Document 1" numero="1">
+			<enonce>
+				<![CDATA[<ma_bibliothèque><livre id='1'>]]>
+			</enonce>
+		</sous-exercice>
+		<sous-exercice nom="Document 2" numero="2">
+			<enonce>
+				<![CDATA[<?xml version="1.0"]]>
+			</enonce>
+		</sous-exercice>
+		<sous-exercice nom="Document 3" numero="3">
+			<enonce>
+				<![CDATA[<?xml version ="1.0" ?>]]>
+			</enonce>
+		</sous-exercice>
+	</exercice>
+</tp1-1>

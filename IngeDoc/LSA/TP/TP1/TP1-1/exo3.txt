@@ -1,0 +1,79 @@
+Exercice 3:
+
+1) Le document 1 comporte une erreur car une le nom d'une balise XML ne peut pas contenir de nombre ni de caractère spécial. De plus, le fichier doit se terminer par la balise fermante correspondant à la première balise du fichier.
+
+Voici un exemple de correction :
+
+<ma_bibliothèque>
+	<livre id='1'>
+		<titre>les misérables</titre>
+		<auteur num="1">Vivtor Hugo</auteur>
+		<année>1832</année>
+	</livre>
+	<livre id='2'>
+		<titre>Tintin</titre>
+		<auteur num="2">Bertrand</auteur>
+		<année>1930</année>
+	</livre>
+</ma_bibliothèque>
+
+----------------------------------------
+
+2) La balise <xsl:apply-templates > n'était pas fermée et la balise fermante </xsl:copy> était après </xsl:template>, ce qui est interdit compte tenu de l'architecture du fichier. Enfin il fallait enlever les $ dans ces 2 balises. 
+
+Voici une solution :
+
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- encoding="ISO-8859-1" n'est en fait pas nécessaire pour un fichier en anglais -->
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/TR/WD-xsl">
+    <!-- Se positionner sur l'élément racine du document -->
+    <xsl:template match="/">
+        <xsl:apply-templates ></xsl:apply-templates>
+    </xsl:template>
+    
+    <!-- Reproduire le document à l'identique -->
+    <xsl:template match="@* | * | text()">
+  	    <xsl:copy>
+		    <xsl:apply-templates select="@* | * | text()"/>
+  		    <!-- Attention : ne pas couper la ligne suivante pour ne pas introduire d'espaces parasites -->
+  	    </xsl:copy>
+  	</xsl:template>$ $
+</xsl:stylesheet>
+
+----------------------------------------
+
+3) Les balises <adresse> ont des erreurs d'orthographe, l'attribut de la balise éditeur n'a pas de guillemets, la balise <$author> ne doit pas avoir de caractère spécial.
+
+Voici une solution :
+
+<?xml version ="1.0" ?>
+<article>
+	<editeur nom ="EYROLLES">
+		<adresse>
+			<rue>1, rue Thénard</rue>
+			<cp>75005</cp>
+			<ville>Paris</ville>
+		</adresse>
+	</editeur>
+	
+	<editeur nom="First Interactive">
+		<adresse>
+			<rue>13, rue Buffon</rue>
+			<cp>75005</cp>
+			<ville>Paris</ville>
+		</adresse>
+	</editeur>
+	
+	<topic>
+		<title>XML : le guide de l’utilisateur</title>
+		<author>Elliotte Rusty Harold</author>
+		<editeur nom="EYROLLES"> </editeur>
+	</topic>
+	
+	<topic>
+		<title>Moteurs de recherche pour le web</title>
+		<author>Alfred, Emily Glossbrenner</author>
+		<editeur nom= "First Interactive"> </editeur>
+	</topic>
+</article>
+

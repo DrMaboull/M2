@@ -1,0 +1,28 @@
+<!ELEMENT annuaire (personne+, societe+)>
+<!ELEMENT personne (nom_personne, prenom_personne, mail?, telephones_personne, secteur, poste, commentaire_personne?)>
+    <!ELEMENT nom_personne (#PCDATA)>
+    <!ELEMENT prenom_personne (#PCDATA)>
+    <!ELEMENT mail (#PCDATA)>
+    <!ELEMENT telephones_personne (telephone_personne+)>
+    <!ELEMENT telephone_personne (#PCDATA)>
+    <!ELEMENT secteur (#PCDATA)>
+    <!ELEMENT poste (#PCDATA)>
+	<!ELEMENT commentaire_personne (#PCDATA)>
+    
+
+<!ELEMENT societe (nom_societe, branches, directeur, commentaire_societe?)>
+    <!ELEMENT nom_societe (#PCDATA)>
+    <!ELEMENT branches (branche+)>
+        <!ELEMENT branche (enregistrement, adresse_societe, telephone_societe, ouverture, ouvres)>
+
+            <!ELEMENT enregistrement (#PCDATA)>
+            <!ELEMENT adresse_societe (#PCDATA)>
+            <!ELEMENT telephone_societe (#PCDATA)>
+            <!ELEMENT ouverture (#PCDATA)>
+            <!ELEMENT ouvres (ouvre+)>
+                <!ELEMENT ouvre (#PCDATA)>
+    <!ELEMENT directeur (noms, adresse)>
+        <!ELEMENT noms (nom+)>
+            <!ELEMENT nom (#PCDATA)>
+        <!ELEMENT adresse (#PCDATA)>
+    <!ELEMENT commentaire_societe (#PCDATA)>

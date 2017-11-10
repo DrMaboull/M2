@@ -1,0 +1,172 @@
+<xngr>
+	<systeme_solaire>
+		<composants>	
+			<etoile>
+				Soleil
+			</etoile>
+			
+			<obj_gravitationnels>
+				<planetes normales="8" naines="5">
+					<tellurique_interne>
+					
+						<!-- Mercure -->
+						<planete satellite="non">
+							<nom>
+								Mercure
+							</nom>
+
+							<composition>
+								<sol>
+									silicates, fer, nickel
+								</sol>
+								<atmosphere>
+									atomes arrachés
+								</atmosphere>
+							</composition>
+						</planete>
+						
+						<!-- Venus -->
+						<planete satellite="non">
+							<nom>
+								Venus
+							</nom>
+
+							<composition>
+								<sol>
+									silicates, fer, nickel
+								</sol>
+								<atmosphere type="substantielle">
+									gaz carbonique
+								</atmosphere>
+							</composition>
+						</planete>
+						
+						<!-- la Terre -->
+						<planete satellite="oui">
+							<nom>
+								la Terre
+							</nom>
+
+							<composition>
+								<sol>
+									silicates, fer, nickel
+								</sol>
+								<atmosphere type="substantielle">
+									21% d'oxygène
+								</atmosphere>
+							</composition>
+						</planete>
+						
+						<!-- Mars -->
+						<planete satellite="oui">
+							<nom>
+								Mars
+							</nom>
+
+							<composition>
+								<sol>
+									silicates, fer, nickel
+								</sol>
+								<atmosphere type="substantielle">
+									gaz carbonique
+								</atmosphere>
+							</composition>
+						</planete>
+					</tellurique_interne>
+
+					<geante_gazeuses>
+						<!-- Jupiter -->
+						<planete type="géantes_gazeuses" satellite="oui">
+							<nom>
+								Jupiter
+							</nom>
+
+							<composition>
+								<sol>
+									hydrogène, hélium
+								</sol>
+								<atmosphere>
+									hydrogène, hélium
+									<anneaux visible="non">
+										poussières et particules
+									</anneaux>
+								</atmosphere>
+							</composition>
+						</planete>
+
+						<!-- Saturne -->
+						<planete type="géantes_gazeuses" satellite="oui">
+							<nom>
+								Saturne
+							</nom>
+
+							<composition>
+								<sol>
+									hydrogène, hélium
+								</sol>
+								<atmosphere>
+									hydrogène, hélium
+									<anneaux visible="oui">
+										poussières et particules
+									</anneaux>
+								</atmosphere>
+							</composition>
+						</planete>
+
+						<!-- Uranus -->
+						<planete type="géantes_gazeuses" satellite="oui">
+							<nom>
+								Uranus
+							</nom>
+
+							<composition>
+								<sol>
+									<principal>
+										glace
+									</principal>
+									<secondaire>
+										hydrogène, hélium
+									</secondaire>
+								</sol>
+								<atmosphere>
+									hydrogène, hélium
+									<anneaux visible="non">
+										poussières et particules
+									</anneaux>
+								</atmosphere>
+							</composition>
+						</planete>
+
+						<!-- Neptune -->
+						<planete type="géantes_gazeuses" satellite="oui">
+							<nom>
+								Neptune
+							</nom>
+
+							<composition>
+								<sol>
+									<principal>
+										glace
+									</principal>
+									<secondaire>
+										hydrogène, hélium
+									</secondaire>
+								</sol>
+								<atmosphere>
+									hydrogène, hélium
+									<anneaux visible="non">
+										poussières et particules
+									</anneaux>
+								</atmosphere>
+							</composition>
+						</planete>
+					</geante_gazeuses>
+				</planetes>
+				
+				<petits_corps>
+					astéroïdes, objets glacés, comètes, météorites, poussières interplanétaires, etc ..
+				</petits_corps>
+			</obj_gravitationnels>
+		</composants>
+	</systeme_solaire>
+</xngr>
